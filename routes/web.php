@@ -17,4 +17,5 @@ Route::get('/', function () {
 
 Route::get('/','PagesController@index')->name('pages.index');
 Route::get('/about','PagesController@about')->name('pages.about');
+Route::get('/game','PagesController@game')->name('pages.game');
 Route::resource('/todos','TodosController');
